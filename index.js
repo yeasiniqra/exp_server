@@ -63,7 +63,7 @@ async function run() {
         const user = req.body
         const updateDoc = {
             $set : {
-                name : user.name,
+                myname : user.myname,
                 designation : user.designation,
                 salary : user.salary,
             }
